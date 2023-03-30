@@ -39,13 +39,4 @@ The application implements the Service Pattern to separate the business logic fr
 ### Helper Files
 The application also uses helper files to simplify common operations. The helper files are located in the app/Helpers directory and can be used in any part of the application.
 
-## Installation Steps
-
-- git clone **project_repo_url**
-- cd **project_folder**
-- run **composer install**
-- edit project **.env** to your local database connection config
-- run **php artisan key:generate**
-- run **php artisan jwt:secret**
-- run **php artisan migration:orderOldVoyagerMigrations**
 

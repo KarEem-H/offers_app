@@ -1,0 +1,135 @@
+<?php
+
+namespace Docs\Swagger\Definitions;
+
+class OfferDefinition
+{
+
+/**
+ * @SWG\Definition(
+ *      definition="Offer",
+ *      required={"status", "start_at", "end_at", "featured"},
+ *      @SWG\Property(
+ *          property="id",
+ *          description="id",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="title",
+ *          description="title",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="slug",
+ *          description="slug",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="small_description",
+ *          description="small_description",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="photo",
+ *          description="photo",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="meta_keywords",
+ *          description="meta_keywords",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="meta_description",
+ *          description="meta_description",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="top_offer",
+ *          description="top_offer",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="price",
+ *          description="price",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="discount_price",
+ *          description="discount_price",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="created_at",
+ *          description="created_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="updated_at",
+ *          description="updated_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="image_title",
+ *          description="image_title",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="image_alt",
+ *          description="image_alt",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="order",
+ *          description="order",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="offer_note",
+ *          description="offer_note",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="status",
+ *          description="status",
+ *          type="boolean"
+ *      ),
+ *      @SWG\Property(
+ *          property="start_at",
+ *          description="start_at",
+ *          type="string",
+ *          format="date"
+ *      ),
+ *      @SWG\Property(
+ *          property="end_at",
+ *          description="end_at",
+ *          type="string",
+ *          format="date"
+ *      ),
+ *      @SWG\Property(
+ *          property="campaign",
+ *          description="campaign",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="featured",
+ *          description="featured",
+ *          type="boolean"
+ *      ),
+ *      @SWG\Property(
+ *          property="offer_category_id",
+ *          description="offer_category_id",
+ *          type="integer",
+ *          format="int32"
+ *      )
+ * )
+ */
+
+}
